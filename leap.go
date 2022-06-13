@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 
-	var year int
+	var yr int
 	fmt.Println("Enter the year:")
-	fmt.Scanf("%d", &year)
-	if year%4 == 0 && year%100 != 0 || year%400 == 0 {
+	fmt.Scanf("%d", &yr)
+	if yr%4 == 0 && yr%100 != 0 || yr%400 == 0 {
 		fmt.Println("The year is a leap year")
 	} else {
 		fmt.Println("The year is not a leap year")
